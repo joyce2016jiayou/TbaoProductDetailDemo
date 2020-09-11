@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6598fe</color>
+    <color name="colorPrimaryDark">#608EF0</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- 用于基本文字信息，如标题，重要段落文字 -->
+    <!-- 用于基本文字信息，如标题，重要段落文字 -->
+
+    <!-- 用于基本文字信息，如标题，重要段落文字 -->
+    <color name="color_000000">#000000</color>
+
+</resources>

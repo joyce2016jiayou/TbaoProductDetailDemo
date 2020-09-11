@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/information_pop_bg"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="课件资料"
+        android:textColor="#ff333333"
+        android:textSize="18sp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/information_recyclerview"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="确定"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sure_bg"
+        android:textColor="@color/white"
+        android:layout_height="40dp"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/sure_bg"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word格式授课资料"
+            android:textColor="#ff333333"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="电子档文件，协助教师更快掌握授课内容（说明、字数不超过一排）"
+            android:textColor="#ff999999"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+</LinearLayout>
